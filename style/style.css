@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    font-family: Gilroy;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container .content {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #00000000;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.container .content .box {
+    width: 511px;
+    height: 59px;
+    border: 1px solid #00000000;
+    position: absolute;
+    top: 30px;
+    right: 670px;
+    bottom: 988px;
+    left: 500px;
+}
+
+.container .content .box .danash {
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.container .content .box1 {
+    width: 1008px;
+    height: 88px;
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    bottom: 876px;
+    left: 230px;
+}
+
+.container .content .box1 .danash h1 {
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.container .content .boxBig {
+    position: relative;
+    left: 770px;   
+}
+
+
+.container .content .boxBig  .icon {
+    width: 310px;
+height: 270px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+position: absolute;
+top: 200px;
+right: 892px;
+bottom: 523px;
+left: -380px;
+}
+
+.container .content .boxBig  .icon .imgOne {
+    width: 310px;
+    height: 270px;
+    display: block;
+}
+
+.container .content .boxBig  .icon .imgTwo {
+    width: 310px;
+    height: 270px;
+    display: none;
+}
+
+.container .content .boxBig .box2 {
+    width: 292px;
+    height: 59px;
+    position: absolute;
+    top: 240px;
+    right: 524px;
+    bottom: 707px;
+    left: 10px;
+}
+
+.container .content .boxBig .box2 .danash {
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.container .content .boxBig .box3 {
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    top: 295px;
+    right: 750px;
+    bottom: 677px;
+    left: 17px;
+}
+
+.container .content .boxBig .box3 .jjdanash {
+    color: #0071E3;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: block;
+}
+
+.container .content .boxBig .box3 .jjjdanash {
+    color: #0071E3;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: none;
+}
+
+.container .content .boxBig .box4 {
+    width: 135px;
+    height: 59px;
+    position: absolute;
+    top: 390px;
+    right: 681px;
+    bottom: 570px;
+    left: 17px;
+}
+
+.container .content .boxBig .box4 .dddanash {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.container .content .boxBig1 {
+    position: relative;
+    left: 30px;
+}
+
+.container .content .boxBig1 .box5 {
+    width: 155px;
+    height: 42px;
+flex-shrink: 0;
+border-radius: 10px;
+background: blue;
+position: absolute;
+top: 485px;
+right: 870px;
+bottom: 422px;
+left: 560px;
+}
+
+.container .content .boxBig1 .box5 .danbox {
+    width: 49px;
+    height: 22px;
+    position: absolute;
+    top: 10px;
+    right: 53px;
+    bottom: 10px;
+    left: 53px;
+}
+
+.container .content .boxBig1 .box5 .danbox .jadanash {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+line-height: normal;
+}
+
+.container .content .boxBig1 .box6 {
+    width: 155px;
+    height: 42px;
+flex-shrink: 0;
+border-radius: 10px;
+background: silver;
+position: absolute;
+top: 485px;
+left: 730px;
+}
+
+.container .content .boxBig1 .box6 .danbox {
+    width: 97px;
+    height: 22px;
+    position: absolute;
+    top: 10px;
+    right: 29px;
+    bottom: 10px;
+    left: 29px;
+}
+
+.container .content .boxBig1 .box6 .danbox .jdanash {
+    color: dimgray;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.container .content .box7 {
+    width: 321px;
+    height: 57px;
+    flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #007FFF;
+position: absolute;
+top: 540px;
+left: 423px;
+}
+
+.container .content .box7 .danbox {
+    width: 93px;
+    height: 22px;
+    position: absolute;
+    top: 18px;
+    right: 208px;
+    bottom: 17px;
+    left: 20px;
+}
+
+.container .content .box7 .danbox .danash {
+    color: #000;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.container .content .box8 {
+    width: 321px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #CFE7FF;
+position: absolute;
+top: 610px;
+left: 423px;
+}
+
+.container .content .box8 .danbox {
+    width: 80px;
+    height: 22px;
+    position: absolute;
+    top: 18px;
+    right: 231px;
+    bottom: 17px;
+    left: 20px;
+}
+
+.container .content .box8 .danbox .danash {
+    color: #000;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.container .content .box8 .danbox1 {
+    width: 41px;
+    height: 17px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 260px;
+}
+
+.container .content .box8 .danbox1 .ddanash {
+    color: #000;
+    text-align: right;
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.container .content .box9 {
+    width: 321px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #CFE7FF;
+position: absolute;
+top: 540px;
+left: 758px;
+}
+
+.container .content .box9 .danbox {
+    width: 73px;
+    height: 22px;
+    position: absolute;
+    top: 18px;
+    right: 228px;
+    bottom: 17px;
+    left: 20px;
+}
+
+.container .content .box9 .danbox .danash {
+    color: #000;
+font-family: Gilroy;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;    
+}
+
+.container .content .box9 .danbox1 {
+    width: 41px;
+    height: 17px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 260px;
+}
+
+.container .content .box9 .danbox1 .danash {
+    color: #000;
+    text-align: right;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.container .content .box10 {
+    width: 321px;
+height: 57px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #CFE7FF;
+position: absolute;
+top: 610px;
+left: 758px;
+}
+
+.container .content .box10 .danbox {
+    width: 74px;
+    height: 22px;
+    position: absolute;
+    top: 18px;
+    right: 227px;
+    bottom: 17px;
+    left: 20px;
+}
+
+.container .content .box10 .danbox .danash {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.container .content .box10 .danbox1 {
+    width: 50px;
+    height: 17px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 251px;
+}
+
+.container .content .box10 .danbox1 .danash {
+    color: #000;
+    text-align: right;
+    font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
